@@ -25,10 +25,4 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionDelay: 250,
 });
 
-const onEscPress = (event, instance) => {
-  if (event.code === "Escape") {
-    instance.close();
-  }
-};
-
 console.log(galleryItems);
